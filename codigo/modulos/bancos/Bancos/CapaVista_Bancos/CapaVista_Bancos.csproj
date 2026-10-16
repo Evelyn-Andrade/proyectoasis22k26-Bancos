@@ -67,11 +67,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formularios\FrmMDI.cs">
+    <Compile Include="Formularios\FrmMDI_Bancos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FrmMDI.Designer.cs">
-      <DependentUpon>FrmMDI.cs</DependentUpon>
+    <Compile Include="Formularios\FrmMDI_Bancos.Designer.cs">
+      <DependentUpon>FrmMDI_Bancos.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
@@ -86,8 +86,8 @@
     <Folder Include="Reportes\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Formularios\FrmMDI.resx">
-      <DependentUpon>FrmMDI.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FrmMDI_Bancos.resx">
+      <DependentUpon>FrmMDI_Bancos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
