@@ -108,6 +108,10 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlFondo.Controls.Add(this.BancosPnlDashboard);
             this.BancosPnlFondo.Controls.Add(this.BancosPnlNavegador);
             this.BancosPnlFondo.Location = new System.Drawing.Point(0, 0);
+<<<<<<< HEAD
+=======
+            this.BancosPnlFondo.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlFondo.Name = "BancosPnlFondo";
             this.BancosPnlFondo.Size = new System.Drawing.Size(1540, 1028);
             this.BancosPnlFondo.TabIndex = 0;
@@ -142,6 +146,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnBurger.BackgroundImage = global::CapaVista_Bancos.Properties.Resources.burger;
             this.BancosBtnBurger.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BancosBtnBurger.Location = new System.Drawing.Point(321, 8);
+<<<<<<< HEAD
+=======
+            this.BancosBtnBurger.Location = new System.Drawing.Point(428, 10);
+            this.BancosBtnBurger.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnBurger.Name = "BancosBtnBurger";
             this.BancosBtnBurger.Size = new System.Drawing.Size(45, 34);
             this.BancosBtnBurger.TabIndex = 2;
@@ -166,6 +175,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlDashboard.Controls.Add(this.BancosBtnAyuda);
             this.BancosPnlDashboard.Controls.Add(this.BancosPbButti);
             this.BancosPnlDashboard.Location = new System.Drawing.Point(309, 48);
+<<<<<<< HEAD
+=======
+            this.BancosPnlDashboard.Location = new System.Drawing.Point(412, 59);
+            this.BancosPnlDashboard.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlDashboard.Name = "BancosPnlDashboard";
             this.BancosPnlDashboard.Size = new System.Drawing.Size(1208, 711);
             this.BancosPnlDashboard.TabIndex = 1;
@@ -227,6 +241,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlContexto.Controls.Add(this.BancosLblContexto);
             this.BancosPnlContexto.Controls.Add(this.BancosLblNota);
             this.BancosPnlContexto.Location = new System.Drawing.Point(69, 615);
+<<<<<<< HEAD
+=======
+            this.BancosPnlContexto.Location = new System.Drawing.Point(92, 757);
+            this.BancosPnlContexto.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlContexto.Name = "BancosPnlContexto";
             this.BancosPnlContexto.Size = new System.Drawing.Size(1070, 78);
             this.BancosPnlContexto.TabIndex = 6;
@@ -265,6 +284,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlKPI3.Controls.Add(this.SeguridadLblKPILbl3);
             this.BancosPnlKPI3.Controls.Add(this.BancosLblKPIResp3);
             this.BancosPnlKPI3.Location = new System.Drawing.Point(431, 434);
+<<<<<<< HEAD
+=======
+            this.BancosPnlKPI3.Location = new System.Drawing.Point(575, 534);
+            this.BancosPnlKPI3.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlKPI3.Name = "BancosPnlKPI3";
             this.BancosPnlKPI3.Size = new System.Drawing.Size(165, 165);
             this.BancosPnlKPI3.TabIndex = 5;
@@ -301,6 +325,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlKPI4.Controls.Add(this.SeguridadLblKPILbl4);
             this.BancosPnlKPI4.Controls.Add(this.BancosLblKPIResp4);
             this.BancosPnlKPI4.Location = new System.Drawing.Point(612, 433);
+<<<<<<< HEAD
+=======
+            this.BancosPnlKPI4.Location = new System.Drawing.Point(816, 533);
+            this.BancosPnlKPI4.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlKPI4.Name = "BancosPnlKPI4";
             this.BancosPnlKPI4.Size = new System.Drawing.Size(165, 165);
             this.BancosPnlKPI4.TabIndex = 4;
@@ -337,6 +366,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlKPI6.Controls.Add(this.label1);
             this.BancosPnlKPI6.Controls.Add(this.BancosLblKPIResp6);
             this.BancosPnlKPI6.Location = new System.Drawing.Point(974, 433);
+<<<<<<< HEAD
+=======
+            this.BancosPnlKPI6.Location = new System.Drawing.Point(1299, 533);
+            this.BancosPnlKPI6.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlKPI6.Name = "BancosPnlKPI6";
             this.BancosPnlKPI6.Size = new System.Drawing.Size(165, 165);
             this.BancosPnlKPI6.TabIndex = 4;
@@ -373,6 +407,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlKPI5.Controls.Add(this.label2);
             this.BancosPnlKPI5.Controls.Add(this.BancosLblKPIResp5);
             this.BancosPnlKPI5.Location = new System.Drawing.Point(793, 433);
+<<<<<<< HEAD
+=======
+            this.BancosPnlKPI5.Location = new System.Drawing.Point(1057, 533);
+            this.BancosPnlKPI5.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlKPI5.Name = "BancosPnlKPI5";
             this.BancosPnlKPI5.Size = new System.Drawing.Size(165, 165);
             this.BancosPnlKPI5.TabIndex = 4;
@@ -409,6 +448,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlKPI2.Controls.Add(this.SeguridadLblKPILbl2);
             this.BancosPnlKPI2.Controls.Add(this.BancosLblKPIResp2);
             this.BancosPnlKPI2.Location = new System.Drawing.Point(250, 434);
+<<<<<<< HEAD
+=======
+            this.BancosPnlKPI2.Location = new System.Drawing.Point(333, 534);
+            this.BancosPnlKPI2.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlKPI2.Name = "BancosPnlKPI2";
             this.BancosPnlKPI2.Size = new System.Drawing.Size(165, 165);
             this.BancosPnlKPI2.TabIndex = 3;
@@ -445,6 +489,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlKPI1.Controls.Add(this.SeguridadLblKPILbl1);
             this.BancosPnlKPI1.Controls.Add(this.BancosLblKPIResp1);
             this.BancosPnlKPI1.Location = new System.Drawing.Point(69, 434);
+<<<<<<< HEAD
+=======
+            this.BancosPnlKPI1.Location = new System.Drawing.Point(92, 534);
+            this.BancosPnlKPI1.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlKPI1.Name = "BancosPnlKPI1";
             this.BancosPnlKPI1.Size = new System.Drawing.Size(165, 165);
             this.BancosPnlKPI1.TabIndex = 2;
@@ -479,6 +528,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnAyuda.BackgroundImage = global::CapaVista_Bancos.Properties.Resources.bancos_ayudas;
             this.BancosBtnAyuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BancosBtnAyuda.Location = new System.Drawing.Point(69, 261);
+<<<<<<< HEAD
+=======
+            this.BancosBtnAyuda.Location = new System.Drawing.Point(92, 321);
+            this.BancosBtnAyuda.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnAyuda.Name = "BancosBtnAyuda";
             this.BancosBtnAyuda.Size = new System.Drawing.Size(84, 79);
             this.BancosBtnAyuda.TabIndex = 0;
@@ -490,6 +544,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPbButti.BackgroundImage = global::CapaVista_Bancos.Properties.Resources.bancos_butti;
             this.BancosPbButti.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BancosPbButti.Location = new System.Drawing.Point(524, 13);
+<<<<<<< HEAD
+=======
+            this.BancosPbButti.Location = new System.Drawing.Point(699, 16);
+            this.BancosPbButti.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPbButti.Name = "BancosPbButti";
             this.BancosPbButti.Size = new System.Drawing.Size(313, 415);
             this.BancosPbButti.TabIndex = 1;
@@ -508,6 +567,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPnlNavegador.Controls.Add(this.BancosPbLogo);
             this.BancosPnlNavegador.Controls.Add(this.BancosPnlNavegador1);
             this.BancosPnlNavegador.Location = new System.Drawing.Point(10, 14);
+<<<<<<< HEAD
+=======
+            this.BancosPnlNavegador.Location = new System.Drawing.Point(13, 17);
+            this.BancosPnlNavegador.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPnlNavegador.Name = "BancosPnlNavegador";
             this.BancosPnlNavegador.Size = new System.Drawing.Size(293, 745);
             this.BancosPnlNavegador.TabIndex = 0;
@@ -562,6 +626,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnMoneda.FlatAppearance.BorderSize = 0;
             this.BancosBtnMoneda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnMoneda.Location = new System.Drawing.Point(11, 10);
+<<<<<<< HEAD
+=======
+            this.BancosBtnMoneda.Location = new System.Drawing.Point(15, 12);
+            this.BancosBtnMoneda.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnMoneda.Name = "BancosBtnMoneda";
             this.BancosBtnMoneda.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnMoneda.TabIndex = 1;
@@ -575,6 +644,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnBancos.FlatAppearance.BorderSize = 0;
             this.BancosBtnBancos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnBancos.Location = new System.Drawing.Point(11, 57);
+<<<<<<< HEAD
+=======
+            this.BancosBtnBancos.Location = new System.Drawing.Point(15, 70);
+            this.BancosBtnBancos.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnBancos.Name = "BancosBtnBancos";
             this.BancosBtnBancos.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnBancos.TabIndex = 2;
@@ -589,6 +663,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnTipoCuentaBancaria.FlatAppearance.BorderSize = 0;
             this.BancosBtnTipoCuentaBancaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnTipoCuentaBancaria.Location = new System.Drawing.Point(12, 104);
+<<<<<<< HEAD
+=======
+            this.BancosBtnTipoCuentaBancaria.Location = new System.Drawing.Point(16, 128);
+            this.BancosBtnTipoCuentaBancaria.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnTipoCuentaBancaria.Name = "BancosBtnTipoCuentaBancaria";
             this.BancosBtnTipoCuentaBancaria.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnTipoCuentaBancaria.TabIndex = 3;
@@ -603,6 +682,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnTipoTransaccion.FlatAppearance.BorderSize = 0;
             this.BancosBtnTipoTransaccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnTipoTransaccion.Location = new System.Drawing.Point(11, 151);
+<<<<<<< HEAD
+=======
+            this.BancosBtnTipoTransaccion.Location = new System.Drawing.Point(15, 186);
+            this.BancosBtnTipoTransaccion.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnTipoTransaccion.Name = "BancosBtnTipoTransaccion";
             this.BancosBtnTipoTransaccion.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnTipoTransaccion.TabIndex = 4;
@@ -617,6 +701,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnCuentaBancaria.FlatAppearance.BorderSize = 0;
             this.BancosBtnCuentaBancaria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnCuentaBancaria.Location = new System.Drawing.Point(11, 198);
+<<<<<<< HEAD
+=======
+            this.BancosBtnCuentaBancaria.Location = new System.Drawing.Point(15, 244);
+            this.BancosBtnCuentaBancaria.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnCuentaBancaria.Name = "BancosBtnCuentaBancaria";
             this.BancosBtnCuentaBancaria.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnCuentaBancaria.TabIndex = 5;
@@ -663,6 +752,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnMovBan.FlatAppearance.BorderSize = 0;
             this.BancosBtnMovBan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnMovBan.Location = new System.Drawing.Point(11, 10);
+<<<<<<< HEAD
+=======
+            this.BancosBtnMovBan.Location = new System.Drawing.Point(15, 12);
+            this.BancosBtnMovBan.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnMovBan.Name = "BancosBtnMovBan";
             this.BancosBtnMovBan.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnMovBan.TabIndex = 1;
@@ -677,6 +771,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnConBan.FlatAppearance.BorderSize = 0;
             this.BancosBtnConBan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnConBan.Location = new System.Drawing.Point(11, 57);
+<<<<<<< HEAD
+=======
+            this.BancosBtnConBan.Location = new System.Drawing.Point(15, 70);
+            this.BancosBtnConBan.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnConBan.Name = "BancosBtnConBan";
             this.BancosBtnConBan.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnConBan.TabIndex = 2;
@@ -691,6 +790,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnCierreBan.FlatAppearance.BorderSize = 0;
             this.BancosBtnCierreBan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnCierreBan.Location = new System.Drawing.Point(11, 340);
+<<<<<<< HEAD
+=======
+            this.BancosBtnCierreBan.Location = new System.Drawing.Point(15, 418);
+            this.BancosBtnCierreBan.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnCierreBan.Name = "BancosBtnCierreBan";
             this.BancosBtnCierreBan.Size = new System.Drawing.Size(250, 41);
             this.BancosBtnCierreBan.TabIndex = 9;
@@ -705,6 +809,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnGenPagos.FlatAppearance.BorderSize = 0;
             this.BancosBtnGenPagos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnGenPagos.Location = new System.Drawing.Point(11, 292);
+<<<<<<< HEAD
+=======
+            this.BancosBtnGenPagos.Location = new System.Drawing.Point(15, 359);
+            this.BancosBtnGenPagos.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnGenPagos.Name = "BancosBtnGenPagos";
             this.BancosBtnGenPagos.Size = new System.Drawing.Size(238, 41);
             this.BancosBtnGenPagos.TabIndex = 7;
@@ -719,6 +828,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnEnlace.FlatAppearance.BorderSize = 0;
             this.BancosBtnEnlace.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnEnlace.Location = new System.Drawing.Point(12, 104);
+<<<<<<< HEAD
+=======
+            this.BancosBtnEnlace.Location = new System.Drawing.Point(16, 128);
+            this.BancosBtnEnlace.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnEnlace.Name = "BancosBtnEnlace";
             this.BancosBtnEnlace.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnEnlace.TabIndex = 3;
@@ -733,6 +847,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnDisp.FlatAppearance.BorderSize = 0;
             this.BancosBtnDisp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnDisp.Location = new System.Drawing.Point(11, 151);
+<<<<<<< HEAD
+=======
+            this.BancosBtnDisp.Location = new System.Drawing.Point(15, 186);
+            this.BancosBtnDisp.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnDisp.Name = "BancosBtnDisp";
             this.BancosBtnDisp.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnDisp.TabIndex = 4;
@@ -747,6 +866,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnAutoCompra.FlatAppearance.BorderSize = 0;
             this.BancosBtnAutoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnAutoCompra.Location = new System.Drawing.Point(11, 245);
+<<<<<<< HEAD
+=======
+            this.BancosBtnAutoCompra.Location = new System.Drawing.Point(15, 302);
+            this.BancosBtnAutoCompra.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnAutoCompra.Name = "BancosBtnAutoCompra";
             this.BancosBtnAutoCompra.Size = new System.Drawing.Size(238, 41);
             this.BancosBtnAutoCompra.TabIndex = 6;
@@ -761,6 +885,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnCambio.FlatAppearance.BorderSize = 0;
             this.BancosBtnCambio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnCambio.Location = new System.Drawing.Point(11, 198);
+<<<<<<< HEAD
+=======
+            this.BancosBtnCambio.Location = new System.Drawing.Point(15, 244);
+            this.BancosBtnCambio.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnCambio.Name = "BancosBtnCambio";
             this.BancosBtnCambio.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnCambio.TabIndex = 5;
@@ -775,6 +904,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosBtnCerrarSes.FlatAppearance.BorderSize = 0;
             this.BancosBtnCerrarSes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BancosBtnCerrarSes.Location = new System.Drawing.Point(21, 687);
+<<<<<<< HEAD
+=======
+            this.BancosBtnCerrarSes.Location = new System.Drawing.Point(28, 846);
+            this.BancosBtnCerrarSes.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosBtnCerrarSes.Name = "BancosBtnCerrarSes";
             this.BancosBtnCerrarSes.Size = new System.Drawing.Size(248, 41);
             this.BancosBtnCerrarSes.TabIndex = 10;
@@ -786,6 +920,11 @@ namespace CapaVista_Bancos.Formularios
             this.BancosPbLogo.BackgroundImage = global::CapaVista_Bancos.Properties.Resources.bancos_logo;
             this.BancosPbLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BancosPbLogo.Location = new System.Drawing.Point(70, 9);
+<<<<<<< HEAD
+=======
+            this.BancosPbLogo.Location = new System.Drawing.Point(93, 11);
+            this.BancosPbLogo.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.BancosPbLogo.Name = "BancosPbLogo";
             this.BancosPbLogo.Size = new System.Drawing.Size(133, 127);
             this.BancosPbLogo.TabIndex = 0;
@@ -810,6 +949,10 @@ namespace CapaVista_Bancos.Formularios
             this.Controls.Add(this.BancosPnlFondo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+<<<<<<< HEAD
+=======
+            this.Margin = new System.Windows.Forms.Padding(4);
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
             this.Name = "FrmMDIBancos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "8000-MDIBancos";

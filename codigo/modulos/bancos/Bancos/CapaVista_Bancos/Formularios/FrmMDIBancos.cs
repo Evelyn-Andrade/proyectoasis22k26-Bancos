@@ -121,7 +121,11 @@ namespace CapaVista_Bancos.Formularios
             FrmBancoNavegador Banco = new FrmBancoNavegador();
             Banco.ShowDialog();
         }
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> 4a100a5d1066793cee28cc9e42f21442c83787d3
         private void BancosBtnCuentaBancaria_Click(object sender, EventArgs e)
         {
             FrmCuentaBancariaNavegador cuentaBancariaNavegador = new FrmCuentaBancariaNavegador();
