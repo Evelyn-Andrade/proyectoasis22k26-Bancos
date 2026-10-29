@@ -7,6 +7,7 @@ if /i "%~1"=="/auto" set "AUTO=1"
 set "ROOT=%~dp0"
 set "COMP=%ROOT%codigo\componentes"
 set "BANCOS=%ROOT%codigo\modulos\bancos"
+set "BIBLIOTECAS=%BANCOS%\Bibliotecas de Bancos"
 set "LOGISTICA=%ROOT%codigo\modulos\Logistica"
 set "LOG_DIR=%ROOT%logs\build_proyecto"
 set "LOG=%LOG_DIR%\build_log.txt"
@@ -15,6 +16,7 @@ if not exist "%LOG_DIR%\" mkdir "%LOG_DIR%"
 if not exist "%LOG_DIR%\" goto ERROR_INICIO
 if not exist "%COMP%\" goto ERROR_INICIO
 if not exist "%BANCOS%\" goto ERROR_INICIO
+if not exist "%BIBLIOTECAS%\" goto ERROR_INICIO
 :INICIO
 > "%LOG%" echo Compilacion global - %DATE% %TIME% || goto ERROR_INICIO
 call :DetectarMSBuild
@@ -30,15 +32,15 @@ set /a TOTAL=0, OK=0, FAIL=0 >nul
 type nul > "%FAILED%"
 echo ===== COMPILACION GLOBAL - RONDA %RONDA% DE 3 =====
 for %%C in (seguridad consultas navegador reporteador) do call :Capas "%COMP%\%%C" BASE
-call :Capas "%BANCOS%" BASE
+call :Capas "%BIBLIOTECAS%" BASE
 :: Logistica: solo las capas requeridas por Seguridad.
+:: Bibliotecas bancarias se buscan en su ubicacion definitiva.
 if "%INCLUIR_LOGISTICA%"=="1" (
     call :ComprobarLogistica
     for %%C in (CapaModelo_ CapaControlador_) do for /r "%LOGISTICA%" %%P in (%%C*.csproj) do call :Build "%%~fP"
 )
 for %%C in (consultas reporteador navegador) do call :Capas "%COMP%\%%C" VISTA
-for /d %%D in ("%BANCOS%\*") do if /i not "%%~nxD"=="Bancos" call :Capas "%%~fD" VISTA
-call :Capas "%BANCOS%\Bancos" VISTA
+for /d %%D in ("%BIBLIOTECAS%\*") do call :Capas "%%~fD" VISTA
 if "%INCLUIR_LOGISTICA%"=="1" (
     for /d %%D in ("%LOGISTICA%\*") do if /i not "%%~nxD"=="Logistica" call :Capas "%%~fD" VISTA
     call :Capas "%LOGISTICA%\Logistica" VISTA
