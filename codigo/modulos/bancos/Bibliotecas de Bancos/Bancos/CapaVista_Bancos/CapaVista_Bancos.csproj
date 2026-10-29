@@ -63,10 +63,16 @@
     </Reference>
     <Reference Include="CapaVista_Navegador, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\componentes\navegador\Navegador\CapaVista_Navegador\bin\Debug\CapaVista_Navegador.dll</HintPath>
+      <HintPath>..\..\..\..\..\componentes\navegador\Navegador\CapaVista_Navegador\bin\Debug\CapaVista_Navegador.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaVista_Navegador.Fakes">
+      <HintPath>FakesAssemblies\CapaVista_Navegador.Fakes.dll</HintPath>
     </Reference>
     <Reference Include="CapaVista_TipoCambioBancos">
       <HintPath>..\..\Tipo_CambioBancos\CapaVista_TipoCambioBancos\bin\Debug\CapaVista_TipoCambioBancos.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -108,6 +114,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Fakes Include="Fakes\CapaVista_Navegador.fakes" />
     <None Include="Resources\bancos_navegador.png" />
   </ItemGroup>
   <ItemGroup>
