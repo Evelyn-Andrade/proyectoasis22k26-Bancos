@@ -43,12 +43,6 @@
     <Reference Include="CapaVista_ConciliacionBancariaBancos">
       <HintPath>..\..\Conciliacion_BancariaBancos\CapaVista_ConciliacionBancariaBancos\bin\Debug\CapaVista_ConciliacionBancariaBancos.dll</HintPath>
     </Reference>
-    <Reference Include="CapaControlador_EnlaceB">
-      <HintPath>..\..\Enlace_Otros_Modulos\CapaControlador_EnlaceB\bin\Debug\CapaControlador_EnlaceB.dll</HintPath>
-    </Reference>
-    <Reference Include="CapaModelo_EnlaceB">
-      <HintPath>..\..\Enlace_Otros_Modulos\CapaModelo_EnlaceB\bin\Debug\CapaModelo_EnlaceB.dll</HintPath>
-    </Reference>
     <Reference Include="CapaVista_DisponibilidadDiariaBancos">
       <HintPath>..\..\Disponibilidad_DiariaBancos\CapaVista_DisponibilidadDiariaBancos\bin\Debug\CapaVista_DisponibilidadDiariaBancos.dll</HintPath>
     </Reference>
@@ -65,14 +59,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\componentes\navegador\Navegador\CapaVista_Navegador\bin\Debug\CapaVista_Navegador.dll</HintPath>
     </Reference>
-    <Reference Include="CapaVista_Navegador.Fakes">
-      <HintPath>FakesAssemblies\CapaVista_Navegador.Fakes.dll</HintPath>
-    </Reference>
     <Reference Include="CapaVista_TipoCambioBancos">
       <HintPath>..\..\Tipo_CambioBancos\CapaVista_TipoCambioBancos\bin\Debug\CapaVista_TipoCambioBancos.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -114,7 +102,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Fakes Include="Fakes\CapaVista_Navegador.fakes" />
     <None Include="Resources\bancos_navegador.png" />
   </ItemGroup>
   <ItemGroup>

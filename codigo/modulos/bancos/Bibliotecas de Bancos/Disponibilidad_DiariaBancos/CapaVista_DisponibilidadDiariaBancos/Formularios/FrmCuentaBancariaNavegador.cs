@@ -24,8 +24,6 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO;
 using CapaControlador_Navegador;
-using CapaVista_DisponibilidadDiaria.Reportes;
-
 
 namespace CapaVista_DisponibilidadDiaria.Formularios
 {
